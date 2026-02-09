@@ -1,0 +1,59 @@
+[Sat Feb  7 23:52:24 2026] PHP 8.3.30 Development Server (http://127.0.0.1:8091) started
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58140 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58140 [200]: GET /index.php?page=home
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58140 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53341 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53341 [200]: GET /css/styles.css
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59181 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53341 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55094 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59181 [200]: GET /js/chart.min.js
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59193 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55094 [200]: GET /images/logo.png
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59193 [200]: GET /images/2-thumb.jpg
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59181 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55094 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:59193 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65164 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65516 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65164 [404]: GET /cnt/counter.php?cat=cometco&color=2&id=3b31d0c8f3cec4f0ac143c5ddf28b9f0 - No such file or directory
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65516 [200]: GET /js/main.js
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65164 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:65516 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58878 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58878 [404]: GET /js/chart.umd.js.map - No such file or directory
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:58878 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53600 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53600 [200]: GET /favicon.ico
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:53600 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:57481 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:57481 [200]: GET /favicon.ico
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:57481 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54925 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54925 [200]: GET /index.php?page=charts
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54925 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49743 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:61835 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55961 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54853 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49743 [200]: GET /js/charts.js
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:61835 [200]: GET /css/styles.css
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55961 [200]: GET /js/chart.min.js
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54853 [200]: GET /images/logo.png
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49743 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:61835 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:54853 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:55961 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:62038 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:62038 [404]: GET /cnt/counter.php?cat=cometco&color=2&id=3b31d0c8f3cec4f0ac143c5ddf28b9f0 - No such file or directory
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:62038 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:50544 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:50544 [200]: GET /js/main.js
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:50544 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49582 Accepted
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49582 [404]: GET /js/chart.umd.js.map - No such file or directory
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:49582 Closing
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:56923 Accepted
+[Sat Feb  7 23:52:31 2026] Database connection error: could not find driver
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:56923 [200]: GET /api/get_measurements.php?date=2026-02-07
+[Sat Feb  7 23:52:31 2026] 127.0.0.1:56923 Closing

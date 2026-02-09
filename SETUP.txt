@@ -1,0 +1,17 @@
+SETUP
+
+Требования:
+- Apache + PHP
+- MySQL/MariaDB
+- php extensions: pdo_mysql, mysqli
+
+Шаги:
+1. Разместить проект в web-root (например, C:\xampp\htdocs\local_server).
+2. Создать БД cometco_local.
+3. Импортировать database/create_table_local.sql.
+4. Проверить config/db_config_local.php.
+5. Открыть http://localhost/local_server/index.php?page=home.
+
+Диагностика:
+- could not find driver -> включить pdo_mysql в php.ini, перезапустить Apache.
+- Access denied for user -> проверить DB_USER/DB_PASS.

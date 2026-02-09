@@ -1,0 +1,46 @@
+ЧЕК-ЛИСТ ПЕРЕД СДАЧЕЙ (P8641)
+
+1) Что должно быть запущено
+[ ] Apache
+[ ] MySQL
+
+2) База данных
+[ ] В phpMyAdmin есть БД cometco_local
+[ ] Импортирован файл database/create_table_local.sql
+[ ] В таблице p8641_measurements есть записи
+
+3) Конфиг
+[ ] Файл config/db_config_local.php:
+    DB_HOST=localhost
+    DB_NAME=cometco_local
+    DB_USER=root
+    DB_PASS=''
+
+4) Быстрая проверка в браузере
+[ ] http://localhost/local_server/index.php?page=home
+[ ] http://localhost/local_server/index.php?page=measurement
+[ ] http://localhost/local_server/index.php?page=charts
+[ ] http://localhost/local_server/index.php?page=data-management
+
+5) Проверка API
+[ ] http://localhost/local_server/api/get_measurements.php?limit=3
+[ ] В ответе есть "success": true
+
+6) Мини-сценарий показа преподавателю (2 минуты)
+[ ] Открыть главную
+[ ] Перейти в "Управление данными"
+[ ] Добавить температуру и влажность
+[ ] Показать, что запись появилась в таблице
+[ ] Перейти в "Графики" и показать обновление
+[ ] Нажать генерацию случайных данных
+[ ] Удалить запись и показать, что она исчезла
+
+7) Формальные моменты
+[ ] Стили в отдельном файле css/styles.css
+[ ] Lightbox работает на изображениях
+[ ] Есть favicon
+[ ] Сайт по теме датчика температуры и влажности P8641
+
+Если что-то не открывается:
+- ошибка "could not find driver" -> включить pdo_mysql в php.ini и перезапустить Apache
+- ошибка доступа к БД -> проверить логин/пароль в db_config_local.php

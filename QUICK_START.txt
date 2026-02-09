@@ -1,0 +1,14 @@
+QUICK START (XAMPP)
+
+- Путь проекта: C:\xampp\htdocs\local_server
+- База данных: cometco_local
+- Импорт: database/create_table_local.sql
+- Старт: http://localhost/local_server/index.php?page=home
+
+Ключевые страницы:
+- http://localhost/local_server/index.php?page=measurement
+- http://localhost/local_server/index.php?page=charts
+- http://localhost/local_server/index.php?page=data-management
+
+API-проверка:
+- http://localhost/local_server/api/get_measurements.php?limit=5
